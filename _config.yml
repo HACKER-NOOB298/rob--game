@@ -1,0 +1,17 @@
+# Configuração básica para GitHub Pages
+baseurl: ""
+url: ""
+
+# Configurações de build
+language: pt-br
+encoding: UTF-8
+
+# Excluir arquivos e pastas da build
+exclude:
+  - .gitignore
+  - LICENSE
+  - README.md
+  - _config.yml
+
+# Configurações de tema
+theme: jekyll-theme-cayman

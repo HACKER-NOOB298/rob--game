@@ -1,0 +1,12 @@
+/* EQUIPE */
+Criador: Guia Completo de Robôs
+Contato: contato@guiarobos.com
+Twitter: @guiarobos
+Local: Brasil
+
+/* SITE */
+Última atualização: 2023/08/03
+Idiomas: Português, Inglês, Espanhol
+Padrões: HTML5, CSS3, JavaScript ES6
+Componentes: Font Awesome
+Software: Visual Studio Code, Git

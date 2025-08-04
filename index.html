@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Guia completo sobre robôs, desde o nível básico até o avançado, com instruções passo a passo, descrições detalhadas e suporte a múltiplos idiomas.">
+  <meta name="keywords" content="robôs, robótica, arduino, raspberry pi, guia, tutorial, passo a passo, montagem, iniciante, intermediário, avançado">
+  <meta name="author" content="Guia Completo de Robôs">
+  <meta name="theme-color" content="#2b5876">
+  <title>Guia Completo de Robôs</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="manifest" href="manifest.json">
+  <link rel="icon" type="image/svg+xml" href="images/robot_basic.svg">
+  <meta property="og:title" content="Guia Completo de Robôs">
+  <meta property="og:description" content="Aprenda a construir robôs do básico ao avançado com instruções passo a passo.">
+  <meta property="og:image" content="images/robot_advanced.svg">
+  <meta property="og:url" content="https://seusite.com">
+  <meta property="og:type" content="website">
+  <link rel="author" href="humans.txt">
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <h1 id="site-title">Guia Completo de Robôs</h1>
+      <nav class="lang-menu">
+        <label for="lang" id="lang-label">Idioma:</label>
+        <select id="lang">
+          <option value="pt-br">Português (Brasil)</option>
+          <option value="en">English</option>
+          <option value="es">Español</option>
+          <option value="fr">Français</option>
+          <option value="de">Deutsch</option>
+          <option value="it">Italiano</option>
+          <option value="ja">日本語</option>
+          <option value="zh">中文</option>
+          <option value="ru">Русский</option>
+          <option value="ar">العربية</option>
+        </select>
+      </nav>
+    </div>
+  </header>
+
+  <div id="error-notification" class="error-notification">
+    <span id="error-message"></span>
+    <button id="close-error"><i class="fas fa-times"></i></button>
+  </div>
+
+  <nav class="main-nav">
+    <ul>
+      <li><a href="#" class="active" data-level="basic" id="nav-basic">Robô Básico</a></li>
+      <li><a href="#" data-level="intermediate" id="nav-intermediate">Robô Intermediário</a></li>
+      <li><a href="#" data-level="advanced" id="nav-advanced">Robô Avançado</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="robot-section" class="robot-section">
+      <h2 id="robot-title">Robô Básico</h2>
+      <div class="robot-content">
+        <div class="robot-image-container">
+          <img src="images/robot_basic.svg" alt="Robô Básico" class="robot-img" id="robot-img">
+        </div>
+        <div class="robot-info">
+          <p id="robot-desc">Este é um robô simples, ideal para iniciantes. Aprenda a montar passo a passo!</p>
+          <button class="btn show-steps-btn" id="show-steps-btn">Ver Como Fazer</button>
+        </div>
+      </div>
+
+      <div class="materials-container hidden" id="materials-container">
+        <h3 id="materials-title">Materiais Necessários</h3>
+        <ul id="materials-list"></ul>
+      </div>
+
+      <div class="steps-container hidden" id="steps-container">
+        <h3 id="steps-title">Passo a Passo</h3>
+        <div id="steps-list" class="steps-list"></div>
+      </div>
+    </section>
+
+    <section class="error-tools">
+      <h3 id="error-tools-title">Ferramentas de Diagnóstico</h3>
+      <div class="error-btns">
+        <div class="error-group">
+          <h4 id="detect-error-title">Detectar Erros</h4>
+          <div class="btn-group">
+            <button class="btn" onclick="detectError(1)" id="detect-error-1">Detectar Erro 1</button>
+            <button class="btn" onclick="detectError(2)" id="detect-error-2">Detectar Erro 2</button>
+            <button class="btn" onclick="detectError(3)" id="detect-error-3">Detectar Erro 3</button>
+            <button class="btn" onclick="detectError(4)" id="detect-error-4">Detectar Erro 4</button>
+            <button class="btn" onclick="detectError(5)" id="detect-error-5">Detectar Erro 5</button>
+          </div>
+        </div>
+        
+        <div class="error-group">
+          <h4 id="solve-error-title">Solucionar Erros</h4>
+          <div class="btn-group">
+            <button class="btn" onclick="solveError(1)" id="solve-error-1">Solucionar Erro 1</button>
+            <button class="btn" onclick="solveError(2)" id="solve-error-2">Solucionar Erro 2</button>
+            <button class="btn" onclick="solveError(3)" id="solve-error-3">Solucionar Erro 3</button>
+          </div>
+        </div>
+        
+        <div class="error-group">
+          <h4 id="reset-error-title">Resetar Erros</h4>
+          <div class="btn-group">
+            <button class="btn" onclick="resetError(1)" id="reset-error-1">Resetar Erro 1</button>
+            <button class="btn" onclick="resetError(2)" id="reset-error-2">Resetar Erro 2</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p id="footer-text">&copy; 2023 Guia Completo de Robôs. Todos os direitos reservados.</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

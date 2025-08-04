@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Cabeça do robô avançado -->
+  <rect x="60" y="25" width="80" height="60" rx="15" fill="#2b5876" />
+  
+  <!-- Visor/Tela -->
+  <rect x="70" y="35" width="60" height="30" rx="5" fill="#000" />
+  <rect x="75" y="40" width="50" height="20" rx="2" fill="#00ffff" opacity="0.7" />
+  
+  <!-- Luzes de status -->
+  <circle cx="75" cy="75" r="3" fill="#ff0000" />
+  <circle cx="85" cy="75" r="3" fill="#00ff00" />
+  <circle cx="95" cy="75" r="3" fill="#0000ff" />
+  <circle cx="105" cy="75" r="3" fill="#ffff00" />
+  <circle cx="115" cy="75" r="3" fill="#ff00ff" />
+  <circle cx="125" cy="75" r="3" fill="#00ffff" />
+  
+  <!-- Antenas avançadas -->
+  <line x1="70" y1="25" x2="60" y2="10" stroke="#4e4376" stroke-width="2" />
+  <line x1="130" y1="25" x2="140" y2="10" stroke="#4e4376" stroke-width="2" />
+  <circle cx="60" cy="10" r="4" fill="#4e4376" />
+  <circle cx="140" cy="10" r="4" fill="#4e4376" />
+  <circle cx="60" cy="10" r="2" fill="#00ffff" />
+  <circle cx="140" cy="10" r="2" fill="#00ffff" />
+  
+  <!-- Corpo avançado -->
+  <rect x="65" y="85" width="70" height="75" rx="10" fill="#4e4376" />
+  
+  <!-- Painel de controle avançado -->
+  <rect x="75" y="95" width="50" height="25" rx="5" fill="#333" />
+  <rect x="80" y="100" width="40" height="15" rx="2" fill="#000" />
+  <text x="100" y="112" font-family="Arial" font-size="8" fill="#00ffff" text-anchor="middle">SYSTEM</text>
+  
+  <!-- Sensores -->
+  <circle cx="75" cy="130" r="5" fill="#333" />
+  <circle cx="75" cy="130" r="2" fill="#ff0000" />
+  <circle cx="125" cy="130" r="5" fill="#333" />
+  <circle cx="125" cy="130" r="2" fill="#ff0000" />
+  
+  <!-- Câmera -->
+  <rect x="95" y="130" width="10" height="10" rx="2" fill="#333" />
+  <circle cx="100" cy="135" r="3" fill="#000" />
+  <circle cx="100" cy="135" r="1" fill="#00ffff" />
+  
+  <!-- Braços robóticos -->
+  <rect x="45" y="95" width="20" height="10" rx="5" fill="#2b5876" />
+  <rect x="135" y="95" width="20" height="10" rx="5" fill="#2b5876" />
+  
+  <rect x="45" y="105" width="10" height="30" rx="2" fill="#2b5876" />
+  <rect x="145" y="105" width="10" height="30" rx="2" fill="#2b5876" />
+  
+  <rect x="40" y="135" width="20" height="10" rx="2" fill="#2b5876" />
+  <rect x="140" y="135" width="20" height="10" rx="2" fill="#2b5876" />
+  
+  <!-- Mãos robóticas -->
+  <circle cx="50" cy="145" r="5" fill="#333" />
+  <circle cx="150" cy="145" r="5" fill="#333" />
+  
+  <!-- Pernas avançadas -->
+  <rect x="80" y="160" width="15" height="30" rx="5" fill="#2b5876" />
+  <rect x="105" y="160" width="15" height="30" rx="5" fill="#2b5876" />
+  
+  <!-- Pés/Rodas avançadas -->
+  <rect x="75" y="190" width="25" height="8" rx="4" fill="#333" />
+  <rect x="100" y="190" width="25" height="8" rx="4" fill="#333" />
+</svg>

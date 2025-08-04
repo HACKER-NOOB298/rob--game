@@ -1,0 +1,6 @@
+# Permitir que todos os robôs de busca indexem o site
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: sitemap.xml
